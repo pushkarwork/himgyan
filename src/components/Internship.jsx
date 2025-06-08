@@ -13,7 +13,7 @@ const Internship = () => {
                 scrollTrigger: {
                     trigger: '.hell3',
                     start: 'top 80%',
-                    markers: true,
+                  
                 },
                 x: 800,
                 delay: 1,

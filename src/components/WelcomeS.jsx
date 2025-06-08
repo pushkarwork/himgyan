@@ -12,7 +12,7 @@ const WelcomeS = () => {
                 scrollTrigger: {
                     trigger: '.hell',
                     start: 'top 80%',
-                    markers: true,
+                  
                 },
                 x: -800,
                 opacity: 0,
@@ -31,7 +31,7 @@ const WelcomeS = () => {
                 scrollTrigger: {
                     trigger: '.hell2',
                     start: 'top 80%',
-                    markers: true,
+                  
                 },
                 x: 800,
                 delay:1,
