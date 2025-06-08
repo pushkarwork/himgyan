@@ -1,0 +1,138 @@
+.holo-button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(0deg,
+      transparent,
+      transparent 10%,
+      #a30b29);
+  transform: rotate(-15deg);
+  opacity: 0;
+  transition: all 1s ease;
+  z-index: 1;
+}
+
+.holo-button:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(110%);
+}
+
+.holo-button {
+  position: relative;
+  z-index: 0;
+}
+
+.holo-button>* {
+  position: relative;
+  z-index: 2;
+}
+
+.holo-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #a30b29;
+}
+
+.headingForAnimation::before {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  z-index: 100;
+  left: 50%;
+  width: 110%;
+  animation: underlineAnimation 2.5s ease-out infinite;
+  transform: translateX(-50%);
+  height: 1px;
+
+  background-color: #a30b29;
+}
+
+@keyframes underlineAnimation {
+  0% {
+    width: 0;
+    opacity: 0;
+    right: 50%;
+  }
+
+  100% {
+    width: 110%;
+    right: 0;
+    opacity: 1;
+  }
+
+}
+
+.svgAnimation {
+  position: relative;
+  left: 0;
+  top: 0;
+
+  animation: fadeInSvg 5s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes fadeInSvg {
+  from {
+    left: 10%
+  }
+
+  to {
+    left: -130%
+  }
+}
+
+
+.cardForAnimation::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  transform: translateX(-100%);
+  background-color: #000000de;
+}
+
+.cardForAnimation:hover .btn_animation {
+  animation: btnAnimation 1s ease-out 0.4s forwards;
+}
+
+.btn_animation:hover {
+  background-color: white;
+  color: black;
+  font-style: italic;
+  transition: all 0.5s ease;
+}
+
+.cardForAnimation:hover::before {
+  animation: cardAnimation 1s ease-out forwards;
+
+
+}
+
+@keyframes cardAnimation {
+  0% {
+    transform: translateX(-100%);
+
+  }
+
+  100% {
+    transform: translateX(0);
+
+  }
+}
+
+
+
+
+@keyframes btnAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
