@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="bg-gray-900 border-gray-200 dark:bg-gray-900">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" className="flex items-center md:mx-8 lg:mx-12 space-x-3 rtl:space-x-reverse">
-                    <img src="/images/tech.png" className="h-8" alt="Logo" />
+                    <img src="images/tech.png" className="h-8" alt="Logo" />
 
                 </a>
 

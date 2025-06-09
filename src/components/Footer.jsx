@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='w-full bg-[url("/images/footer.jpg")] relative z-10  bg-fixed bg-cover bg-center bg-no-repeat py-10 mt-10'>
+        <div className='w-full bg-[url("images/footer.jpg")] relative z-10  bg-fixed bg-cover bg-center bg-no-repeat py-10 mt-10'>
             <div className='absolute inset-0 z-20 bg-[#000000a5]'></div>
 
             <div className='grid md:grid-cols-3 md:gap-4  gap-8 relative w-[95%] md:w-[90%] mx-auto grid-cols-1 z-50'>
@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className=' flex flex-col  px-2 gap-2 text-white'>
                     <h3 className='border-b border-gray-50 pb-2 font-bold text-2xl'>ABOUT US</h3>
                     <div className='flex gap-4 '>
-                        <img className='w-1/2' src="/images/tech.png" />
+                        <img className='w-1/2' src="images/tech.png" />
                         <p className=' text-lg'>Himgyan Tech</p>
 
                     </div>

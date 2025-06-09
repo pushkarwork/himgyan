@@ -64,7 +64,7 @@ const WelcomeS = () => {
                 <div className='md:w-full h-full'>
                     <img
                         className='md:h-full md:w-full mx-auto'
-                        src='/images/pranav.jpg'
+                        src='images/pranav.jpg'
                         alt='Team Member'
                     />
                 </div>

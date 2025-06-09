@@ -30,13 +30,13 @@ const Internship = () => {
         <div className='w-full flex flex-col items-center overflow-x-hidden  mt-10 bg-[#ffffffb8] pb-10 gap-10'>
             <h1 className='text-4xl font-bold italic headingForAnimation relative'>Internship</h1>
             <div className='banner md:w-[90%] overflow-hidden w-[95%] md:h-[450px] shadow rounded-3xl shadow-black mx-auto '>
-                <img className='object-cover' src='/images/internship.jpg' />
+                <img className='object-cover' src='images/internship.jpg' />
             </div>
 
             <div className='w-full flex justify-center'>
                 <div className='hell3 md:w-[80%] w-95% mx-auto grid md:grid-cols-[35%_65%] gap-6'>
                     <div className=' md:w-full h-full'>
-                        <img className='md:h-full md:w-full mx-auto object-cover' src='/images/intern.jpg' />
+                        <img className='md:h-full md:w-full mx-auto object-cover' src='images/intern.jpg' />
                     </div>
                     <div className='md:w-full w-[97%] mx-auto flex flex-col gap-6 '>
                         <h1 className='head3 font-bold text-3xl'>Intrenship For Himgyan Tech</h1>
