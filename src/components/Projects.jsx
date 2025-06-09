@@ -52,7 +52,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className='w-full h-screen relative z-10 bg-[url("images/banner.jpg")] bg-fixed bg-cover bg-center  bg-no-repeat grid md:grid-cols-4 grid-cols-1 items-center'>
+            <div className='w-full h-screen relative z-10 bg-[url("/public/images/banner.jpg")] bg-fixed bg-cover bg-center  bg-no-repeat grid md:grid-cols-4 grid-cols-1 items-center'>
                 <div className='absolute inset-0 z-20 bg-[#000000af]'> </div>
                 <div className=' w-full text-white relatve z-30  flex flex-col items-center border-r border-gray-400 gap-4 py-8'>
                     <div className='border-red-500  '>

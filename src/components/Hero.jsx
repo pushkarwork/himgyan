@@ -6,7 +6,7 @@ const Hero = () => {
         <div className='relative w-full md:h-[90vh] h-screen overflow-hidden '>
 
 
-            <div className='absolute inset-0 bg-[url("images/banner.jpg")] bg-cover bg-center blur-[3px]'></div>
+            <div className='absolute inset-0 bg-[url("/public/images/banner.jpg")] bg-cover bg-center blur-[3px]'></div>
 
 
             <div className='inset-0 absolute z-1 bg-[#00000071] '></div>
